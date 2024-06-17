@@ -1,0 +1,114 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": ["hola", "que tal", "como estas", "saludos"],
+            "responses": ["Hola!", "Buenos dias!", "What's up bro?", "Que pdo bro?"]
+        },
+        {
+            "tag": "nombre",
+            "patterns": ["como es tu nombre", "como te llamas", "what is your name?"],
+            "responses": ["Mi nombre es BotMoy", "Me llamo BotMoy", "Yo soy BotMoy"]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["adios", "nos vemos", "hasta luego", "chao", "bye"],
+            "responses": ["Adios!", "Nos vemos!", "Hasta luego!", "Chao!", "Bye!"]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns": ["gracias", "muchas gracias", "te lo agradezco"],
+            "responses": ["De nada!", "No hay problema!", "Con gusto!", "A tu servicio!"]
+        },
+        {
+            "tag": "ayuda",
+            "patterns": ["necesito ayuda", "puedes ayudarme?", "ayuda por favor"],
+            "responses": ["Claro, como puedo ayudarte?", "Estoy aqui para ayudarte, que necesitas?", "Dime en que necesitas ayuda."]
+        },
+        {
+            "tag": "estado",
+            "patterns": ["como te sientes?", "que tal estas?", "how are you feeling?"],
+            "responses": ["Estoy bien, gracias por preguntar!", "Estoy genial, gracias!", "Funcionando al 100%!"]
+        },
+        {
+            "tag": "chiste",
+            "patterns": ["cuentame un chiste", "dime un chiste", "hazme reir"],
+            "responses": ["Por que no se puede discutir con un DJ? Porque siempre estan cambiando de tema.", "Cual es el cafe mas peligroso del mundo? El ex-preso.", "Que hace una abeja en el gimnasio? Zum-ba!"]
+        },
+        {
+            "tag": "horario",
+            "patterns": ["que hora es?", "me puedes decir la hora?", "tienes la hora?"],
+            "responses": ["Lo siento, no tengo un reloj incorporado.", "No puedo decirte la hora exacta, pero espero que tengas un buen dia!"]
+        },
+        {
+            "tag": "ubicacion",
+            "patterns": ["donde estas?", "cual es tu ubicacion?", "donde te encuentras?"],
+            "responses": ["Estoy en la nube, listo para ayudarte!", "Estoy donde me necesites!", "En el mundo virtual, siempre cerca de ti."]
+        },
+        {
+            "tag": "chiste",
+            "patterns": ["cuentame un chiste", "dime un chiste", "hazme reir"],
+            "responses": ["Por que no se puede discutir con un DJ? Porque siempre estan cambiando de tema.", "Cual es el cafe mas peligroso del mundo? El ex-preso.", "Que hace una abeja en el gimnasio? Zum-ba!"]
+        },
+        {
+            "tag": "adivinanza",
+            "patterns": ["cuentame una adivinanza", "dime una adivinanza", "quiero una adivinanza"],
+            "responses": ["Blanca por dentro, verde por fuera. Si quieres que te lo diga, espera. Que es?", "Oro parece, plata no es. Que es?", "Tiene dientes y no muerde, que es?"]
+        },
+        {
+            "tag": "juego",
+            "patterns": ["juguemos algo", "quiero jugar", "a que podemos jugar"],
+            "responses": ["Que te parece si jugamos piedra, papel o tijera?", "Podemos jugar a adivinar un numero entre 1 y 10. Listo?", "Podemos hacer un reto de palabras, tu empiezas."]
+        },
+        {
+            "tag": "recomendacion_peliculas",
+            "patterns": ["recomiendame una pelicula", "que pelicula puedo ver", "sugiereme una pelicula"],
+            "responses": ["Te recomiendo ver 'Inception', es una pelicula fascinante!", "Que tal 'The Matrix'? Es un clasico de la ciencia ficcion.", "Si te gustan las comedias, 'Superbad' es una gran opcion."]
+        },
+        {
+            "tag": "recomendacion_musica",
+            "patterns": ["recomiendame una cancion", "que musica puedo escuchar", "sugiereme una cancion"],
+            "responses": ["Te recomiendo 'Bohemian Rhapsody' de Queen, es un clasico!", "Escucha 'Shape of You' de Ed Sheeran, es muy pegajosa.", "Que tal 'Blinding Lights' de The Weeknd?"]
+        },
+        {
+            "tag": "recomendacion_libros",
+            "patterns": ["recomiendame un libro", "que libro puedo leer", "sugiereme un libro"],
+            "responses": ["Te recomiendo 'Cien años de soledad' de Gabriel Garcia Marquez.", "Que tal '1984' de George Orwell? Es muy interesante.", "Si te gustan las aventuras, 'El Hobbit' de J.R.R. Tolkien es perfecto."]
+        },
+        {
+            "tag": "curiosidades",
+            "patterns": ["dime un dato curioso", "quiero saber algo interesante", "cuentame una curiosidad"],
+            "responses": ["Sabias que los flamencos se vuelven rosados por su dieta de camarones?", "La miel nunca se echa a perder, se han encontrado frascos de miel de hace miles de años en tumbas egipcias.", "Sabias que el corazon de un camaron esta en su cabeza?"]
+        },
+        {
+            "tag": "comida",
+            "patterns": ["que deberia comer hoy", "que puedo comer", "sugiereme algo para comer", "que me recomiendas para cenar"],
+            "responses": ["Que te parece una ensalada fresca con pollo a la parrilla?", "Puedes probar un plato de pasta con salsa marinara.", "Una buena opcion seria sushi, es delicioso y saludable!", "Que tal una pizza casera con tus ingredientes favoritos?"]
+        },
+        {
+            "tag": "recomendacion_restaurantes",
+            "patterns": ["recomiendame un restaurante", "donde puedo comer", "sugiereme un lugar para comer"],
+            "responses": ["Si te gusta la comida italiana, prueba 'La Trattoria'.", "Para sushi, 'Sushi Master' es una excelente opcion.", "Si prefieres algo rapido y delicioso, 'Burger Palace' nunca decepciona.", "Para comida mexicana, 'El Taco Loco' es muy popular."]
+        },
+        {
+            "tag": "recomendacion_ejercicio",
+            "patterns": ["que ejercicio deberia hacer", "sugiereme una rutina de ejercicio", "que ejercicios me recomiendas"],
+            "responses": ["Puedes hacer una rutina de cardio como correr o andar en bicicleta.", "El yoga es excelente para la flexibilidad y la relajacion.", "Prueba con una rutina de pesas para fortalecer tus musculos.", "Un entrenamiento HIIT puede ser muy efectivo si tienes poco tiempo."]
+        },
+        {
+            "tag": "recomendacion_series",
+            "patterns": ["que serie deberia ver", "sugiereme una serie", "que serie me recomiendas"],
+            "responses": ["'Stranger Things' es muy popular y tiene una gran trama.", "'Breaking Bad' es un clasico que no te puedes perder.", "Para algo mas ligero, prueba 'The Office'.", "'Game of Thrones' tiene una gran cantidad de seguidores si te gusta la fantasia epica."]
+        },
+        {
+            "tag": "recomendacion_vacaciones",
+            "patterns": ["donde deberia ir de vacaciones", "sugiereme un destino para viajar", "que lugar me recomiendas para unas vacaciones"],
+            "responses": ["Para unas vacaciones en la playa, considera visitar Cancun.", "Si prefieres la montaña, los Alpes Suizos son impresionantes.", "Para una experiencia cultural, Paris es una ciudad maravillosa.", "Que tal un viaje a Tokio para explorar la tecnologia y la tradicion japonesa?"]
+        },
+        {
+            "tag": "recomendacion_hobbies",
+            "patterns": ["que hobby deberia intentar", "sugiereme un hobby", "que pasatiempo me recomiendas"],
+            "responses": ["La fotografia puede ser un hobby muy gratificante.", "Que tal aprender a tocar un instrumento musical?", "El senderismo es una excelente manera de disfrutar de la naturaleza.", "La jardineria puede ser muy relajante y gratificante."]
+        }
+    ]
+}
